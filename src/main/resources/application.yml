@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: micronut-ehcache
+ehcache:
+  storage-path: C:/Git-Repo/eh-micronut/eh-cache-ide/src/test/cache
+  caches:
+    default-cache:
+      max-entries: 100
+      ttl-seconds: 60
